@@ -1,0 +1,57 @@
+body {
+  background-color: $body-gray;
+  margin: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  min-width: 350px;
+}
+
+h1 {
+  margin: 15px 15px 15px calc(10% + 2px);
+  color: $white;
+  display: inline-block;
+}
+
+p {
+  margin-left: 20px;
+}
+
+form {
+  margin: 15px calc(10% + 2px) 15px 15px;
+  float: right;
+}
+
+input {
+  border-radius: 2px;
+  height: 35px;
+  border: none;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+img {
+  object-fit: cover;
+  margin-bottom: -2px;
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.container {
+  display: inline-block;
+  height: 300px;
+  width: calc(20% - 4px);
+  margin: 2px 2px -2px 2px;
+  border-radius: 2px;
+  
+}
+
+#header {
+  background-color: $black;
+  margin-bottom: 2px;
+}
+
+#feed {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
